@@ -1,8 +1,3 @@
-# python -m venv envauto
-# .\envauto\scripts\activate
-# pip install pyautogui pandas openpyxl python-dotenv
-# pip freeze > requirements.txt
-
 import pyautogui, time, os, pandas as pd 
 from dotenv import load_dotenv
 
@@ -34,6 +29,7 @@ pyautogui.press('tab')
 pyautogui.press('enter')
 time.sleep(3)
 
+# Carregar a base de dados
 df = pd.read_csv('produtos.csv')
 
 # Cadastrar produtos
