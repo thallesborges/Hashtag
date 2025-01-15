@@ -1,4 +1,4 @@
-# Jornada Python - Hashtag Programação
+# Jornada Python
 ![Status](https://img.shields.io/badge/status-active-brightgreen)
 ![Versão](https://img.shields.io/badge/version-1.0.0-blue)
 
